@@ -1,0 +1,1 @@
+//ciclos, los 500 se van sumando 10 y los 400 se les va restando 2

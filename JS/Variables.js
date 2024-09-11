@@ -1,20 +1,3 @@
-var estatura = 1.70;
-let peso = 69;
-let nombre = "Jorge";
-var edad;
-let ciudad;
-
-edad = 25;
-ciudad = "Castro";
-
-const apellido = "Ruiz";
-
-const nombrecompleto = nombre + " " + apellido; 
-console.log(nombrecompleto);
-
-let docente = "victor";
-let asignatura = ["Pro. Movil"];
-let age = "Nose"; 
 
 /* variable var */
 
@@ -43,3 +26,11 @@ console.log(z); // ¿Qué crees que imprimirá aquí?
 
 z = 4; // ¿Qué pasará aquí?
 console.log(z);
+
+//infinito matematico
+console.log(edad/0);
+console.log(Infinity)
+
+//NaN
+console.log("Hola" / 2);
+console.log("Hola" * 4);
