@@ -5,10 +5,10 @@ const incrementoDiurnoDomingo = 2000;
 const incrementoNocturnoDomingo = 3000;
 
 // Definición de tarifas
-const empleados = [
+const empleados = [  // Se declara un array que contiene objetos, donde cada objeto representa a un empleado
     {
         nombre: "Empleado 1",
-        horario: { lunes: "nocturno", martes: "nocturno", miercoles: "nocturno", jueves: "diurno", viernes: "diurno" },
+        horario: { lunes: "nocturno", martes: "nocturno", miercoles: "nocturno", jueves: "diurno", viernes: "diurno" }, //Un objeto que mapea los días de la semana a su respectivo turno
     },
     {
         nombre: "Empleado 2",
