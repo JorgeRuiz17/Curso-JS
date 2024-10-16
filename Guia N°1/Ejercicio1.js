@@ -12,9 +12,9 @@ function calcularAreaRectandulo(base, altura){
 
 let figura = prompt("Elija una figura (circulo, triangulo o rectangulo)") // se almacena uno de las tres formas
 
-let area;
+let area; //Variable para almacenar el resultado de la funcion requerida
 
-if (figura === "circulo"){
+if (figura === "circulo"){ //se compara con lo guardado en la variable figura para escoger que operacion hacer
     let radio = parseFloat(prompt("Ingrese el radio para calcular el área: "));
     area = calcularAreaCirculo(radio);
     alert("El área calculada es: " + area.toFixed(3));
@@ -29,5 +29,5 @@ if (figura === "circulo"){
     area = calcularAreaRectandulo(base, altura);
     alert("El area del rectangulo es: " + area.toFixed(3));
 } else {
-    alert("Ingrese una figura valida, recuerde debe ser 'circulo', 'triangulo', 'rectangulo'.");
+    alert("Ingrese una figura valida, recuerde debe ser 'circulo', 'triangulo', 'rectangulo'."); //en caso de escribir otra figura o escribir mal
 }

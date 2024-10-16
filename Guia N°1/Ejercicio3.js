@@ -9,7 +9,7 @@ class Trabajador {
     }
 }
 
-class Gerente extends Trabajador {
+class Gerente extends Trabajador { 
     constructor(nombre, sueldo, departamento){
         super (nombre, sueldo); // hacemos referencia al clase Trabajador
         this.departamento = departamento; //Adicionamos departamento
